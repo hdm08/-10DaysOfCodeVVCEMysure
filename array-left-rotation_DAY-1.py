@@ -12,6 +12,6 @@ if __name__ == '__main__':
     a = list(map(int, input().rstrip().split()))
     b=a[0:d]
     for i in range(d):
-        x=a.pop(0)
+        a.pop(0)
     c=a+b
     print(" ".join(map(str,c)))
